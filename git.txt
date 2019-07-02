@@ -18,6 +18,8 @@
 
 合并某分支到当前分支：	git merge <name>
 
+合并分支禁用Fast forward模式 git merge --no-ff -m "merged bug fix 101" issue-101
+
 删除分支：		git branch -d <name>
 
 合并分支之后查询:		git log --graph --pretty=oneline --abbrev-commit
